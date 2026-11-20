@@ -215,6 +215,7 @@
   table.gloss { width: 100%; border-collapse: collapse; font-size: .9em; margin-bottom: 18px; }
   table.gloss th, table.gloss td { border-bottom: 1px solid var(--line); padding: 7px 6px; text-align: left; vertical-align: top; }
   table.gloss td:first-child { font-weight: 700; white-space: nowrap; }
+  @media (max-width: 600px) { table.gloss td:first-child { white-space: normal; } table.gloss td { overflow-wrap: anywhere; } }
   table.gloss td:last-child { color: var(--accent); font-style: italic; }
   .gloss h3 { margin-top: 10px; color: var(--accent); font-size: 1em; }
 
